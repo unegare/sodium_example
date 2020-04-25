@@ -9,7 +9,7 @@ docker build -t file_enc_dec .
 
 ### How to use:
 ```
-docker run -v "${PWD}:./" -it file_enc_dec -i ./fileToEncrypt
+docker run -v "${PWD}:/opt/src" -it file_enc_dec -i /opt/src/fileToEncrypt
 ```
 
 ### Examples:
