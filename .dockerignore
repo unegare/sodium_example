@@ -1,0 +1,7 @@
+a.out
+.git
+*.swp
+*.o
+encrypted
+decrypted
+key
